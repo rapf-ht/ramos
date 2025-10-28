@@ -1,0 +1,30 @@
+Anotações do projeto de Python:
+(21) 96721-8715 para dúvidas técnicass sobre a jornada
+
+*Bibliotecas em Python: pyautogui - pacote de Python para acelerar automações
+
+- Usar "import pyautogui"
+
+# pyautogui.click - clicar em algum lugar 
+# pyautogui.press - apertar 1 tecla
+# pyautogui.write - escrever um texto
+# pyautogui.hotkey - apertar uma combinação de teclas
+
+delay é importante na hora de automatizar, logo:
+
+pyautogui.PAUSE = 0.5 #DELAY DE 0.5 SEGUNDOS
+
+pyautogui.press("win") - Função intuitiva, após rodar o código, o pyautogui vai literalmente apertar o botão "win" do Windows
+pyautogui.write("chrome") - Função, vai escrever "chrome" na barra de busca
+pyautogui.press("enter") - Função vai usar o teclado enter
+
+- Usar "import time"
+
+Para fazer pausa em um momento específico durante o código
+
+time.sleep(3) #VAI ESPERAR 3 SEGUNDOS PARA EXECUTAR A PRÓXIMA FUNÇÃO
+
+- PACOTE DE DADOS: pandas
+"import pandas"
+
+Código da primeira aula: usepython
