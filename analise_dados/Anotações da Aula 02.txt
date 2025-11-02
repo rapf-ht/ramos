@@ -1,0 +1,29 @@
+Aula 02 do intensivo de Python
+
+-> Analisando dados com Python
+
+Utilizar pandas para base de dados
+utilizar plotly para gráficos dinâmico
+
+Usar no começo do projeto: "!pip install pandas openpyxl numpy nbformat plotyl ipykernel"
+
+tabela = pd.read_csv("cancelamentos_sample.csv")
+
+display(tabela) #display é uma função que só funciona ".ipynb"; ele é mais bonito visualmente que o "print" normal
+
+display(tabela.info()) -> Ver a quantidade de cada cédulas preenchidas
+
+A questão aqui é deletar as linhas (cliente), onde não há o preenchimento de cédula
+
+Geralmente, é recomendável, deletar quando há erro em no máximo 10% da base de dados
+
+dataframe = tabela
+
+tabela["cancelou"].value.counts()
+value.counts(normaliza=True) -> "normalize" é uma função da Estatística para colocar em porcentagem tal valor
+
+Site Kaggle -> site de base de dados de diversos tipos (bom para exercitar e fazer alguma simulação para qualquer projeto que eu queira fazer no futuro)
+
+código da aula 02: "pythoncomdados"
+
+Rever a aula, não peguei legal os comandos dessa aula.
