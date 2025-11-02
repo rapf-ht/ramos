@@ -1,4 +1,4 @@
-# ramos
+# Ramos
 ##Alguns projetos básicos para explorar possibilidades que Python pode oferecer
 
 ### Automação
@@ -10,3 +10,10 @@
 -> Treinamento de duas IAs para estudar um banco de dados (.csv) com milhares de códigos
 -> Escolher a que mais foi precisa no treinamento e descartar a outra
 -> Usar a IA treinada para decidir entre se os três novos usuários terão entre um score "Bom", "Mediano" ou "Ruim"
+
+### Análise de Dados
+-> Formatar um banco de dados
+-> Uso de "import plotly.express"
+-> Uso de "import pandas"
+-> Criação de gráfico, utilizando a biblioteca plotly.express, usando os dados, como base
+-> Com os gráficos, foram realizadas as conclusões
