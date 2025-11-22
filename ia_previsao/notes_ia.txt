@@ -1,0 +1,7 @@
+Utilizando IA para analisar e prever um banco de dados
+
+Formatar a base de dados:
+
+Formatar as colunas que possuem texto, transformando-nam em texto (com exceção ao score, pois nõs vamos analisar essa parte)
+
+Modelo IA escolhido -> modelo = RandomForestClassifier()
